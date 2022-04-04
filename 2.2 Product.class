@@ -1,0 +1,21 @@
+
+public class Product {
+
+	// 속성
+		public String PID;
+		public String PName;
+		public int PPrice;
+		
+		public int PMaxQty;		// 한 번에 구매할 수 있는 개수
+		// 생성자
+		
+		// 메서드
+		// 물건을 최대 개수 이상 구매하면 메시지를 띄운다.
+		public boolean CheckQty(int qty) {
+			boolean isQty = true;
+			if (PMaxQty < qty) {
+				isQty = false;
+			}
+			return isQty;
+		}
+}
