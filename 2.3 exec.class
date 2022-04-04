@@ -1,0 +1,42 @@
+
+public class Exec {
+
+	public static void main(String[] args) {
+		
+		// 1. Customer 하나 생성
+		Customer cus1 = new Customer();
+		cus1.CID = "C001";
+		cus1.CName = "카이사";
+		cus1.CAge = 30;
+		
+		// 2. Customer 하나 더 생성
+		Customer cus2 = new Customer();
+		cus2.CID = "C002";
+		cus2.CName = "럭스";
+		cus2.CAge = 19;
+		
+		// 3. Product 한 개를 생성
+		Product prod1 = new Product();
+		prod1.PID = "P001";
+		prod1.PName = "빨간물약";
+		prod1.PPrice = 500;
+		prod1.PMaxQty = 3;
+		
+		// 4. Product 한 개 더 생성
+		Product prod2 = new Product();
+		prod2.PID = "P002";
+		prod2.PName = "파란물약";
+		prod2.PPrice = 600;
+		prod2.PMaxQty = 5;
+		
+		
+		// 행위 정리
+		cus1.orderProduct(prod1, 3);
+		cus2.orderProduct(prod1, 2);
+		cus2.orderProduct(prod2, 3);
+		
+		cus1.showOrderList();
+		cus2.showOrderList();
+	}
+
+}
