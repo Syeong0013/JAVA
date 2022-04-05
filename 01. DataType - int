@@ -1,0 +1,27 @@
+
+public class DataType {
+	public static void main(String[] args) {
+  
+		int var1 = 0b11;
+		int var2 = 0011;
+		int var3 = 11;
+		int var4 = 0x11;
+		
+		System.out.println(var1);
+		System.out.println(var2);
+		System.out.println(var3);
+		System.out.println(var4);
+		
+	}
+}
+
+
+
+
+/*
+출력 값
+3
+9
+11
+17
+*/
