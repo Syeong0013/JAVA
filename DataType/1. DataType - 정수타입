@@ -44,7 +44,7 @@ public class DataType_int {
 		
 	}
 }
-
+```
 ```
 public class DataType_byte {
 	public static void main(String[] args) {
