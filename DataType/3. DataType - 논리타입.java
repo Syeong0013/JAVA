@@ -1,4 +1,4 @@
-참과 거짓 판별 
+//참과 거짓 판별 
 
 public class DataType_Boolean {
 	public static void main(String[] args) {
