@@ -1,5 +1,5 @@
 
-* 실수타입 = float, double
+/* 실수타입 = float, double
 
 float
 - 4byte, 32bit
@@ -13,7 +13,7 @@ double
 5e2 > 5.0 * 10^2
 0.5e-2 > 0.5 * 10^-2
 
-*************************************************************************
+*/
 
 public class DataType_floatDouble {
 	public static void main(String[] args) {
