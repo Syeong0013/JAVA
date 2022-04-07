@@ -1,4 +1,4 @@
-<b>dd</b>
+
 /*
 byte 
      - 1byte, 8bit 
@@ -27,12 +27,8 @@ byte
      16진수 : 0x or 0X로 시작하고 0 ~ 9의 숫자와 A ~ F까지의 문자로 구성된다.
      
 */
-```python
-py_vector = one_hot_encoding("파이",word2index)
-py_vector.dot(torch_vector)
->>> 0.0
-```
-```java
+
+
 public class DataType_int {
 	public static void main(String[] args) {
   
@@ -48,8 +44,7 @@ public class DataType_int {
 		
 	}
 }
-```
-```
+
 public class DataType_byte {
 	public static void main(String[] args) {
 			
@@ -60,9 +55,7 @@ public class DataType_byte {
 		byte var = 128;		 	>> error
 	}
 }
-```
 
-```
 public class DataType_long {
 	public static void main(String[] args) {
 			
@@ -72,8 +65,7 @@ public class DataType_long {
 		long var4 = 1000000000000L;
 	}
 }
-```
-```
+
 public class DataType_char {
 	public static void main(String[] args) {
 			
@@ -84,9 +76,7 @@ public class DataType_char {
 		System.out.println(var2);	// A
 	}
 }
-```
 
-```
 public class DataType_String {
 	public static void main(String[] args) {
 			
@@ -110,4 +100,4 @@ public class DataType_String {
 	
 	}
 }
-```
+
