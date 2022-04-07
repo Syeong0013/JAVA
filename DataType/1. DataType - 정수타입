@@ -45,7 +45,7 @@ public class DataType_int {
 	}
 }
 
-
+```
 public class DataType_byte {
 	public static void main(String[] args) {
 			
@@ -56,9 +56,9 @@ public class DataType_byte {
 		byte var = 128;		 	>> error
 	}
 }
+```
 
-
-
+```
 public class DataType_long {
 	public static void main(String[] args) {
 			
@@ -68,8 +68,8 @@ public class DataType_long {
 		long var4 = 1000000000000L;
 	}
 }
-
-
+```
+```
 public class DataType_char {
 	public static void main(String[] args) {
 			
@@ -80,9 +80,9 @@ public class DataType_char {
 		System.out.println(var2);	// A
 	}
 }
+```
 
-
-
+```
 public class DataType_String {
 	public static void main(String[] args) {
 			
@@ -106,3 +106,4 @@ public class DataType_String {
 	
 	}
 }
+```
