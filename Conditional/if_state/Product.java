@@ -10,10 +10,10 @@ public class Product {
 
 	public void Pick() {
 		if(price > 10000) {
-			System.out.println("±¸¸ÅÇÏÁö¾Ê´Â´Ù.");
+			System.out.println("êµ¬ë§¤í•˜ì§€ì•ŠìŠµë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("±¸¸ÅÇÑ´Ù.");
+			System.out.println("êµ¬ë§¤í•©ë‹ˆë‹¤.");
 		}
 	}
 }
