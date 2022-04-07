@@ -26,7 +26,9 @@ byte
      16진수 : 0x or 0X로 시작하고 0 ~ 9의 숫자와 A ~ F까지의 문자로 구성된다.
      
 *****************************************************************************************************/
-     
+demo/** linguist-documentation=false
+demo/** linguist-vendored=false
+
 public class DataType_int {
 	public static void main(String[] args) {
   
