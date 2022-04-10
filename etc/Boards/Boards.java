@@ -26,4 +26,9 @@ public class Boards {
 			System.out.println("-----------------------------");
 		}
 	}
+	
+	// 글 번호를 생성하는 메소드
+	public int makeRegnum() {
+		return this.postList.size() +1;
+	}
 }
