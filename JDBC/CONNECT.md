@@ -1,8 +1,8 @@
 ### 제목 무엇으로 할까나~~~
 
-</line>
+---
 
--- JAVA 와 ORACLESQL을 연결하기 위한 절차
+- JAVA 와 ORACLESQL을 연결하기 위한 절차
     1. ORACLE CONNECTION LOADING
     2. SQL 쿼리문 또는 PROCEDURE 호출문 생성
     3. 2번을 담을 그릇 생성
