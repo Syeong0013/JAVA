@@ -4,7 +4,7 @@ public class Exec {
 	
 	public static void main(String[] args) {
 		
-		Product product1 = new Product("ÃÊÄİ¸´", 1);
+		Product product1 = new Product("ì•„ì´ìŠ¤í¬ë¦¼", 1);
 		
 		product1.ShowKind();
 	}
