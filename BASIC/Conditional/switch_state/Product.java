@@ -13,13 +13,13 @@ public class Product {
 	public void ShowKind() {
 		String str = "";
 		switch(this.kind) {
-		case 1: str = "ÃÊÄİ¸´";
+		case 1: str = "ì´ˆì½œë¦¿";
 			break;
-		case 2: str = "¶ó¸é";
+		case 2: str = "ë¼ë©´";
 			break;
-		case 3: str = "°Ç°­½ÄÇ°";
+		case 3: str = "ê±´ê°•ì‹í’ˆ";
 		 	break;
 		}
-		System.out.println(this.name + "ÀÇ Á¾·ù´Â " + str + "ÀÔ´Ï´Ù.");
+		System.out.println(this.name + "ì˜ ì¢…ë¥˜ëŠ” " + str + "ì…ë‹ˆë‹¤.");
 	}
 }
