@@ -9,7 +9,7 @@ public class exec {
 			numCount++;
 			System.out.println(numCount);
 			if(numCount == 5) {
-				System.out.println("Á¾·áÇÕ´Ï´Ù.");
+				System.out.println("êµ¬ë§¤í•œë‹¤.");
 			}
 		}
 
