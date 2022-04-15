@@ -83,7 +83,7 @@ private CallableStatement getCallableStatement(String strProc, String[] strParam
 }
 ```
 
-## 3. 실행부에서 호출할 메소드
+## 3.1 실행부에서 호출할 메소드
 
 ```java
 public void dbHandle(String str, String[] strParams, SQLQuery queryType){
@@ -114,6 +114,37 @@ public enum SQLQueryType {
 INLINE QUERY 문이면 getPreparedStatement method가 실행되고
 
 PROCEDURE 이면 getCallableStatement method가 실행되도록 한다.
+
+## 3.2 실행부에서 호출할 메소드 - CURSOR
+
+```java
+public ResultSet getDBSelect(String strSql, String[] strParams, SQLQueryType QueryType, boolean isOutput){
+	ResultSet rs = null;
+
+	try{
+		if(QueryType == SQLQueryType.inline){
+			PreparedStatement psmt = getPreparedStatement();
+			rs = psmt.executeQuery();
+		}
+		else{
+			CallableStatement csmt = getCallableStatement();
+
+			if(isOutput){
+				cmst.registerOutParameter(strParams.length+1, OracleTypes.CURSOR);
+				cmst.executeQuery();
+				rs = (ResultSet)csmt.getObject(strParams.length+1);
+			}
+			else{
+				rs = csmt.executeQuery();
+			}
+		}
+	} catch(Exception e){
+		System.out.println(e.getMessage());
+	}
+
+	return rs;
+}
+```
 
 ## 4. 실행부
 
