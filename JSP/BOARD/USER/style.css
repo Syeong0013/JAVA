@@ -1,0 +1,292 @@
+@charset "EUC-KR";
+
+#wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #f9fafe;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  float: left;
+}
+
+.top {
+  background-color: #405c71;
+  width: 1500px;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.top-logo {
+  float: left;
+  margin: 5px 0px 5px 35px;
+}
+
+.top-menu {
+  display: inline;
+  width: 300x;
+  height: 40px;
+  margin-left: 100px;
+  float: left;
+}
+
+.top-menu ul li {
+  border-left: 2px solid #162027a1;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.top-login {
+  font-size: 12px;
+  font-family: "고딕체";
+  float: right;
+}
+
+.top-login ul {
+  margin-right: 50px;
+  margin-top: 17px;
+}
+
+.top-login ul li {
+  width: 90px;
+  font-size: 11px;
+  color: white;
+  border-left: 1px solid white;
+  text-align: center;
+}
+
+.home {
+  width: 1350px;
+  height: 1000px;
+  margin: auto;
+  background-color: white;
+}
+
+.home-box {
+  float: left;
+  margin-top: 15px;
+  margin-left: 22px;
+  width: 420px;
+}
+.home-box a {
+  color: black;
+}
+
+.home-box-top {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #405c71;
+  padding-bottom: 15px;
+}
+
+.board {
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 7px;
+  padding-top: 15px;
+  width: 400px;
+  height: 30px;
+  background-color: #e9ebf1c9;
+  font-size: 13px;
+}
+
+.board:hover {
+  background-color: #405c71cd;
+  color: white;
+  font-weight: bolder;
+}
+
+.loginForm,
+.RegisterForm {
+  width: 300px;
+  height: 400px;
+  padding: 30px 20px;
+  background-color: white;
+  border: 8px solid #405c71;
+  text-align: center;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.neighbor {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border: 8px solid #405c71;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 50px;
+}
+.neighbor h2 {
+  text-align: center;
+}
+
+.neighbor-con ul li {
+  width: 150px;
+  border-bottom: 2px solid #405c71;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.neighbor-con ul {
+  float: left;
+  width: 230px;
+}
+
+.btn_del {
+  float: right;
+  width: 180p;
+  height: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: #405c71;
+  font-size: 12px;
+}
+
+.login-box,
+.register-box {
+  padding: 10px 10px;
+  margin: 30px;
+}
+
+.login-box input,
+.register-box input {
+  border: none;
+  border-bottom: 1px solid #405c71;
+  width: 100%;
+  outline: none;
+  color: #636e72;
+  font-size: 14px;
+  height: 40px;
+  background: none;
+  margin-bottom: 15px;
+}
+
+.chk_btn{
+  position: relative;
+  width: 40%;
+  height: 30px;
+  font-size:13px;
+  background:RGB(64, 92, 113);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  position: relative;
+  left: 40%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+  width: 80%;
+  height: 30px;
+  background: linear-gradient(125deg, #405c71, #36559b, #95c3ec);
+  background-position: left;
+  background-size: 200%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+  display: inline;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.login-box-bottom {
+  text-align: center;
+  font-size: 14px;
+}
+.login-box-bottom a {
+  text-decoration: none;
+  color: #405c71;
+  margin-left: 5px;
+}
+
+.b-text {
+  text-align: center;
+  font-size: 26px;
+}
+
+.alert {
+  margin: auto;
+  padding-left: 7px;
+  width: 400px;
+  height: 30px;
+  background-color: #f6f7fac9;
+  font-size: 12px;
+  border-bottom: 1px solid #405c71;
+  padding-bottom: 15px;
+}
+
+.alert a {
+  color: rgb(23, 30, 44);
+}
+.alert a:hover {
+  font-weight: bolder;
+}
+
+.icon {
+  margin-top: 13px;
+  margin-right: 7px;
+  width: 23px;
+  height: 25px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.photo-box:hover .overlay {
+  opacity: 1;
+}
+
+.hidden-text {
+  font-size: 17px;
+  color: white;
+  font-size: 14px;
+}
+
+.hidden-text p {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.photo-box {
+  float: left;
+  display: block;
+  position: relative;
+  width: 202px;
+  height: 210px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.photo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
